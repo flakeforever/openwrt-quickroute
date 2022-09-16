@@ -17,7 +17,7 @@ define Package/quickroute
     SECTION:=utils
     CATEGORY:=Utilities
     TITLE:=A quick routing configuration tool
-    DEPENDS:=+libstdcpp +libuci
+    DEPENDS:=+libstdcpp +libuci +ipset +iptables +ip-full
 endef
 
 define Package/quickroute/install
